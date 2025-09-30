@@ -48,7 +48,7 @@ class ResumeController extends Controller
             'experience' => [
                 [
                     'role' => 'DevFLex - Web Developer',
-                    'date' => 'June 2025 - Aug 2025',
+                    'date' => 'May 2025 - Aug 2025',
                     'details' => [
                         'Served as the backend developer for multiple client projects, focusing on building scalable and efficient server-side systems.',
                         'Worked with databases (PostgreSQL/MySQL) to ensure secure data storage, retrieval, and optimization.',
@@ -57,6 +57,18 @@ class ResumeController extends Controller
                 ]
             ],
             'projects' => [
+                [
+                    'title' => 'GRIP - AI Orchestrator for Ecosystem Management',
+                    'date' => 'July 2025 – September 2025',
+                    'details' => [
+                        'Designed to help organizations like BPI manage complex partner ecosystems by autonomously coordinating vendors, fintech partners, regulators, and Ayala Group companies.',
+                        'Synergy Graph Engine – maps partners with engagement scores, compliance, and performance data.',
+                        'Ecosystem Simulation Sandbox – tests “what-if” scenarios like delays or regulatory changes.',
+                        'LLM Contract Strategist – analyzes and suggests revisions for contracts and compliance.',
+                        'Opportunity Engine – recommends co-created products and services across partners.',
+                        'Smart Negotiator Agent – drafts strategies, emails, and talking points.'
+                    ]
+                ],
                 [
                     'title' => 'CIVILIAN',
                     'date' => 'June 2025 – Aug 2025',
